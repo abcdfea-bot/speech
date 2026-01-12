@@ -1,0 +1,24 @@
+{
+  "database_path": "E:/aasist-main/petrichorwq-DECRO-dataset-b9b7412/ch_eval",
+  "eval_trial_path": "E:/aasist-main/petrichorwq-DECRO-dataset-b9b7412/ch_eval.txt",
+  "model_path": "E:/aasist-main/aasist-main/models/weights/epoch_45_0.441.pth",
+  "batch_size": 16,
+
+  "model_config": {
+    "architecture": "AASIST",
+    "nb_samp": 64600,
+    "first_conv": 128,
+    "in_channels": 1,
+    
+    "filts": [70, [1, 32], [32, 32], [32, 24], [24, 24]],
+    "gat_dims": [24, 32], 
+
+    "pool_ratios": [0.5, 0.7, 0.5],
+    "temperatures": [2.0, 2.0, 100.0],
+    "blocks": [2, 4],
+    "nb_fc_node": 1024,
+    "gru_node": 1024,
+    "nb_gru_layer": 3,
+    "nb_classes": 2
+  }
+}
