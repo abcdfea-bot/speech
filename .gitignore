@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+
+# Local runtime files
+.session_secret
+app_data.db
+*.log
+
+# Editor settings
+.vscode/
+
+# Large/platform-specific runtime binaries
+*.pth
+ffmpeg.exe
+ffprobe.exe
+
+# LaTeX build artifacts
+texput.log
+underguatepaper/*.aux
+underguatepaper/*.bbl
+underguatepaper/*.bcf
+underguatepaper/*.blg
+underguatepaper/*.fdb_latexmk
+underguatepaper/*.fls
+underguatepaper/*.log
+underguatepaper/*.out
+underguatepaper/*.pdf
+underguatepaper/*.run.xml
+underguatepaper/*.synctex.gz
+underguatepaper/*.toc
+underguatepaper/*.bak*
+underguatepaper/*-SAVE-ERROR
+underguatepaper/out/
