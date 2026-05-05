@@ -1,11 +1,11 @@
 {
-  "database_path": "E:/aasist-main/petrichorwq-DECRO-dataset-b9b7412/ch_eval",
-  "eval_trial_path": "E:/aasist-main/petrichorwq-DECRO-dataset-b9b7412/ch_eval.txt",
-  "model_path": "E:/aasist-main/aasist-main/models/weights/epoch_45_0.441.pth",
+  "database_path": "",
+  "eval_trial_path": "",
+  "model_path": "",
   "batch_size": 16,
 
   "model_config": {
-    "architecture": "AASIST",
+    "architecture": "AASISTFullAttentionResidual",
     "nb_samp": 64600,
     "first_conv": 128,
     "in_channels": 1,
